@@ -213,6 +213,10 @@
     <Compile Include="Migrations\201611072054344_OverrideConventionsForEntriesAndTimeOfMeasurement.Designer.cs">
       <DependentUpon>201611072054344_OverrideConventionsForEntriesAndTimeOfMeasurement.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201611072103042_PopulateTimeOfMeasurement.cs" />
+    <Compile Include="Migrations\201611072103042_PopulateTimeOfMeasurement.Designer.cs">
+      <DependentUpon>201611072103042_PopulateTimeOfMeasurement.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\ApplicationDbContext.cs" />
@@ -302,6 +306,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201611072054344_OverrideConventionsForEntriesAndTimeOfMeasurement.resx">
       <DependentUpon>201611072054344_OverrideConventionsForEntriesAndTimeOfMeasurement.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201611072103042_PopulateTimeOfMeasurement.resx">
+      <DependentUpon>201611072103042_PopulateTimeOfMeasurement.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
